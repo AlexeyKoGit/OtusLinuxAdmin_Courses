@@ -33,7 +33,7 @@ URLs:
                 {
                     Oracle VM VirtualBox|Vagrant
                     {
-                        CentOS Linux (Целевая ОС для выполнения задания)
+                        CentOS Linux (**Целевая ОС для выполнения задания**)
                     }
                 }
             }
