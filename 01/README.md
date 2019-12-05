@@ -23,3 +23,5 @@ URLs:
 
 - **Методическое руководство по процедуре обновления ядра** - https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
 - **Исходные файлы для задания** - https://github.com/dmitry-lyutenko/manual_kernel_update
+# Порядок выполнения задания
+# Ошибки
