@@ -29,7 +29,7 @@ URLs:
     {
     	Oracle VM VirtualBox
             {
-    	        Linux Mint 19.2 Tina
+                Linux Mint 19.2 Tina
                 {
                     Oracle VM VirtualBox|Vagrant
                     {
