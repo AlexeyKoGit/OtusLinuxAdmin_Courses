@@ -25,7 +25,7 @@ URLs:
 - **Исходные файлы для задания** - https://github.com/dmitry-lyutenko/manual_kernel_update
 # Порядок выполнения задания
 ## Структурное представление стенда для выполнения задания.
-«Windows10 (hardware)
+    «Windows10 (hardware)
 {
 		Oracle VM VirtualBox {
 			Linux Mint 19.2 Tina {
