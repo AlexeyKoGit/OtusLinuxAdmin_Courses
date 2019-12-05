@@ -19,5 +19,6 @@
 - **GitHub** - https://github.com/
 - **Vagrant Cloud** - https://app.vagrantup.com
 
-URLs
--**Методическое руководство по процедуре обновления ядра**- https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
+URLs:
+
+- **Методическое руководство по процедуре обновления ядра** - https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
