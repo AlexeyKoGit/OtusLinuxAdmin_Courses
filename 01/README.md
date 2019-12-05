@@ -27,11 +27,14 @@ URLs:
 ## Структурное представление стенда для выполнения задания.
     Windows10 (hardware)
     {
-    	Oracle VM VirtualBo
+    	Oracle VM VirtualBox
             {
     	        Linux Mint 19.2 Tina
                 {
-                    
+                    Oracle VM VirtualBox|Vagrant
+                    {
+                        CentOS Linux (Целевая ОС для выполнения задания)
+                    }
                 }
     	    }
     }
