@@ -14,7 +14,10 @@
 - **Packer** - ПО для создания образов виртуальных машин;
 - **Git** - система контроля версий
 
-А так же аккаунты:
+Аккаунты:
 
 - **GitHub** - https://github.com/
 - **Vagrant Cloud** - https://app.vagrantup.com
+
+URLs
+-**Методическое руководство по процедуре обновления ядра**- https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
