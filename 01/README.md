@@ -27,9 +27,13 @@ URLs:
 ## Структурное представление стенда для выполнения задания.
     Windows10 (hardware)
     {
-    	Oracle VM VirtualBox {
-    	Linux Mint 19.2 Tina {
-    	}
+    	Oracle VM VirtualBo
+            {
+    	        Linux Mint 19.2 Tina
+                {
+                    
+                }
+    	    }
     }
 
 # Ошибки
