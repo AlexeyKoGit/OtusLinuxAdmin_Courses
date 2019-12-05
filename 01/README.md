@@ -40,4 +40,5 @@ URLs:
     }
 #### 1. Создаем аккаунты на:
 * **GIT** - https://github.com/
+* **Vagrant Cloud** - https://app.vagrantup.com
 # Ошибки
