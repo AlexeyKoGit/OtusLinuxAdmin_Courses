@@ -25,6 +25,7 @@ URLs:
 - **Исходные файлы для задания** - https://github.com/dmitry-lyutenko/manual_kernel_update
 # Порядок выполнения задания
 ### Структурное представление стенда для выполнения задания.
+```java
     Windows10 (hardware)
     {
     	Oracle VM VirtualBox
@@ -38,6 +39,7 @@ URLs:
                 }
             }
     }
+```
 #### 1. Создаем аккаунты
 * **GIT** - https://github.com/
 * **Vagrant Cloud** - https://app.vagrantup.com
@@ -68,6 +70,13 @@ mainline:	5.4 ссылка для скачивания [tarball] https://cdn.ker
 
     $ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 ```java
+#include <stdio.h>
+
+int main(void) {
+    printf("Hello World!\n");
+    return 0;
+}
+```
 #include <stdio.h>
 
 int main(void) {
