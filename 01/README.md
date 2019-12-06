@@ -64,10 +64,13 @@ URLs:
 В результате выполнения команды у видим используемое ядро
 **3.10.0.-957.12.2.el7.x86_64**
 #### 5. Получаем новое ядро для установки в систему
+Переходим в директорию kernels
+```bash
+$ cd /usr/src/kernels
+```
 Для задания со **"\*"**, скачиваем исходники будущего ядра.
 Выбираем архив 5-го ядра на https://www.kernel.org/ 
 mainline:	5.4 ссылка для скачивания [tarball] https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
-
 ```bash
 $ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 ```
