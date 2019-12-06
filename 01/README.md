@@ -67,6 +67,11 @@ URLs:
 Для задания со **"\*"**, скачиваем исходники будущего ядра.
 Выбираем архив 5-го ядра на https://www.kernel.org/ 
 mainline:	5.4 ссылка для скачивания [tarball] https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
+<style>
+pre code.bash {
+  background: lightyellow;
+}
+</style>
 ```bash
 $ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 ```
