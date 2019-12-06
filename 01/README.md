@@ -68,11 +68,7 @@ URLs:
 Выбираем архив 5-го ядра на https://www.kernel.org/ 
 mainline:	5.4 ссылка для скачивания [tarball] https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 
-<style>
-pre code.bash {
-  background: lightyellow;
-}
-</style>
+<span style="color:red">some **This is Red Bold.** text</span>
 
 ```bash
 $ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
