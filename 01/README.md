@@ -79,12 +79,14 @@ mainline:	5.4 ссылка для скачивания [**tarball**] https://cdn
 $ sudo yum install wget
 ```
 </details>
+
 ```bash
 $ sudo wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 ```
 Распаковываем архив с исходниками ядра
+
 ```bash
-tar -xvf kernel/v5.x/linux-5.4.tar.xz -C /usr/src/kernels
+$ tar -xvf kernel/v5.x/linux-5.4.tar.xz -C /usr/src/kernels
 ```
 ## Ошибки
 #### Для проверяющих, данный раздел прошу не брать во внимания, это шпаргалка для меня по возникшим трудностям.
