@@ -67,6 +67,9 @@ URLs:
 mainline:	5.4 ссылка для скачивания [tarball] https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 
     $ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
+<a href="https://markdownmonster.west-wind.com" style="font-style: italic">
+    Markdown Monster Web Site
+</a>
 # Ошибки
 #### Для проверяющих, данный раздел прошу не брать во внимания, это шпаргалка для меня по возникшим трудностям.
 ### Включение вложенной виртуализации
