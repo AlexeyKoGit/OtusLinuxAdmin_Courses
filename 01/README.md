@@ -67,22 +67,8 @@ URLs:
 Для задания со **"\*"**, скачиваем исходники будущего ядра.
 Выбираем архив 5-го ядра на https://www.kernel.org/ 
 mainline:	5.4 ссылка для скачивания [tarball] https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
-
-    $ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
-```java
-#include <stdio.h>
-
-int main(void) {
-    printf("Hello World!\n");
-    return 0;
-}
-```
-#include <stdio.h>
-
-int main(void) {
-    printf("Hello World!\n");
-    return 0;
-}
+```bash
+$ wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 ```
 # Ошибки
 #### Для проверяющих, данный раздел прошу не брать во внимания, это шпаргалка для меня по возникшим трудностям.
