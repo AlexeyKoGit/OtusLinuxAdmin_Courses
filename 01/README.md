@@ -9,18 +9,18 @@
 ДЗ со звездочкой: Ядро собрано из исходников
 ДЗ с **: В вашем образе нормально работают VirtualBox Shared Folders
 ## Инвентарь
+
+ПО:
 - **VirtualBox** - среда виртуализации, позволяет создавать и выполнять виртуальные машины;
 - **Vagrant** - ПО для создания и конфигурирования виртуальной среды. В данном случае в качестве среды виртуализации используется *VirtualBox*;
 - **Packer** - ПО для создания образов виртуальных машин;
 - **Git** - система контроля версий
 
 Аккаунты:
-
 - **GitHub** - https://github.com/
 - **Vagrant Cloud** - https://app.vagrantup.com
 
 URLs:
-
 - **Методическое руководство по процедуре обновления ядра** - https://github.com/dmitry-lyutenko/manual_kernel_update/blob/master/manual/manual.md
 - **Исходные файлы для задания** - https://github.com/dmitry-lyutenko/manual_kernel_update
 ## Порядок выполнения задания
