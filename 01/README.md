@@ -92,6 +92,18 @@ $ sudo tar -xvf ./linux-5.4.tar.xz -C /usr/src/kernels
 ```bash
 $ sudo cp /boot/config* .config
 ```
+Применить настройки старого ядра к новому
+<details>
+  <summary>FYI</summary>
+Установка Wget
+    
+```bash
+$ sudo yum install gcc
+```
+</details>
+```bash
+$ sudo make oldconfig
+```
 ## Ошибки
 #### Для проверяющих, данный раздел прошу не брать во внимания, это шпаргалка для меня по возникшим трудностям.
 ### Включение вложенной виртуализации
