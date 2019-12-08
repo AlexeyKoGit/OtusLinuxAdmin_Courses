@@ -95,12 +95,15 @@ $ sudo cp /boot/config* .config
 Применить настройки старого ядра к новому
 <details>
   <summary>FYI</summary>
-Установка Wget
+Для команды make oldconfig, понадобиться установить :
     
 ```bash
 $ sudo yum install gcc
+$ sudo yum install flex
+$ sudo yum install bison
 ```
 </details>
+
 ```bash
 $ sudo make oldconfig
 ```
