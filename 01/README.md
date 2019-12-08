@@ -70,7 +70,7 @@ $ cd /usr/src/kernels
 ```
 Для задания со **"\*"**, скачиваем исходники будущего ядра.
 Выбираем архив 5-го ядра на https://www.kernel.org/ 
-mainline:	5.4 ссылка для скачивания **stable:	5.4.2** https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.2.tar.xz
+ссылка для скачивания **stable:	5.4.2** https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.2.tar.xz
 <details>
   <summary>FYI</summary>
 Установка Wget
