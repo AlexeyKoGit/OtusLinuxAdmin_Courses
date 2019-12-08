@@ -88,6 +88,10 @@ $ sudo wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.tar.xz
 ```bash
 $ sudo tar -xvf ./linux-5.4.tar.xz -C /usr/src/kernels
 ```
+Копируем текущую конфигурацию ядра
+```bash
+$ cp /boot/config* .config
+```
 ## Ошибки
 #### Для проверяющих, данный раздел прошу не брать во внимания, это шпаргалка для меня по возникшим трудностям.
 ### Включение вложенной виртуализации
