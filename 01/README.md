@@ -28,7 +28,7 @@ URLs:
 ```java
     Windows10 (hardware)
     {
-    	Oracle VM VirtualBox
+      Oracle VM VirtualBox
             {
                 Linux Mint 19.2 Tina
                 {
@@ -70,7 +70,7 @@ $ cd /usr/src/kernels
 ```
 Для задания со **"\*"**, скачиваем исходники будущего ядра.
 Выбираем архив 5-го ядра на https://www.kernel.org/ 
-ссылка для скачивания **stable:	5.4.2** https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.2.tar.xz
+ссылка для скачивания **stable:  5.4.2** https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.2.tar.xz
 <details>
   <summary>FYI</summary>
 Установка Wget
@@ -88,11 +88,12 @@ $ sudo wget https://cdn.kernel.org/pub/linux/kernel/v5.x/linux-5.4.2.tar.xz
 ```bash
 $ sudo tar -xvf ./linux-5.4.2.tar.xz -C /usr/src/kernels
 ```
+#### 6. Собираем ядро
 Копируем текущую конфигурацию ядра
 ```bash
 $ sudo cp /boot/config* .config
 ```
-Применить настройки старого ядра к новому
+Конфигурируем новые настройки, которые появились в новом ядре
 <details>
   <summary>FYI</summary>
 Понадобиться установить :
@@ -108,10 +109,16 @@ $ sudo yum install bc
 ```
 </details>
 
-Осуществляем сборку ядра
 ```bash
 $ sudo make oldconfig 
 ```
+Собираем ядро
+
+```bash
+$ sudo root #make -jN
+```
+N - число потоков
+
 ## Ошибки
 #### Для проверяющих, данный раздел прошу не брать во внимания, это шпаргалка для меня по возникшим трудностям.
 ### Включение вложенной виртуализации
