@@ -95,17 +95,22 @@ $ sudo cp /boot/config* .config
 Применить настройки старого ядра к новому
 <details>
   <summary>FYI</summary>
-Для команды make oldconfig, понадобиться установить :
+Понадобиться установить :
     
 ```bash
 $ sudo yum install gcc
 $ sudo yum install flex
 $ sudo yum install bison
+
+$ sudo yum install openssl-devel
+$ sudo yum install elfutils-libelf-devel
+$ sudo yum install bc
 ```
 </details>
 
+Осуществляем сборку ядра
 ```bash
-$ sudo make oldconfig
+$ sudo make oldconfig 
 ```
 ## Ошибки
 #### Для проверяющих, данный раздел прошу не брать во внимания, это шпаргалка для меня по возникшим трудностям.
